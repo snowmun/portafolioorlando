@@ -31,7 +31,7 @@ const Header =()=> {
         <Nav>
           {/* <Nav.Link  as={NavLink} to={routes.login}>Iniciar Sesion</Nav.Link>
           <Nav.Link  as={NavLink} to={routes.register}>Registrarse</Nav.Link> */}
-          <Nav.Link  as={NavLink} to={routes.account}>Perfil</Nav.Link>
+          <Nav.Link  as={NavLink} to={routes.account}>Ver Mi Perfil</Nav.Link>
           {/* <Nav.Link  to={routes.account} onClick={logout}>Cerrar Sesion</Nav.Link> */}
         
         </Nav>
