@@ -4,25 +4,26 @@ import { useNavigate } from 'react-router-dom'
 export const authContext = createContext();
 
 const AuthProvider=({children})=> {
-    const [user,setUser]=useState(null);
+    // const [user,setUser]=useState(null);
     // const [user]=useState({id:1,role:roles.regular});
-    // const [user]=useState({id:2,role:roles.admin});
+    const [user]=useState({id:2,name:'Orlando Muñoz',lenguajeFav:'JavaScript',email:'or.munozf@gmail.com',edad:31,
+    hobbie:'Jugar VideoJuegos y Ver anime',nacionalidad:'Chileno',estado:'Soltero'});
     const history = useNavigate();
     const login = (userCredentials)=>{
       const lastPath = localStorage.getItem('lastPath') || '/';
 
-      setUser({id:1,name:'Orlando Muñoz',email:'or.munozf@gmail.com',edad:31,role:roles.admin,
-      hobbie:'Jugar VideoJuegos y Ver cursos',nacionalidad:'Chileno',estado:'Soltero'}); 
+      // setUser({id:2,name:'Orlando Muñoz',email:'or.munozf@gmail.com',edad:31,role:roles.admin,
+      // hobbie:'Jugar VideoJuegos y Ver cursos',nacionalidad:'Chileno',estado:'Soltero'}); 
       
       if(lastPath){
         history(lastPath)
       }
     }
 
-    const logout = ()=>{
+    // const logout = ()=>{
       
-      return setUser(null)
-    }
+    //   return setUser(null)
+    // }
 
     // comprobaremos si esta autenticado true o false
     const isLogged = ()=> !!user;
@@ -34,7 +35,7 @@ const AuthProvider=({children})=> {
       isLogged,
       hasRole,
       login,
-      logout
+      // logout
     };
   return (
     <authContext.Provider value={contextValue}>

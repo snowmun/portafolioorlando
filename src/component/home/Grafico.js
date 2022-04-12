@@ -8,7 +8,7 @@ export const GraficoBack =()=>{
             series={[
               {
                 name:'BackEnd',
-                data:[50,60,65,50,45,60]
+                data:[50,55,65,50,45,60]
               }
             ]}
             options={{

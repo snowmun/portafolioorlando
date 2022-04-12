@@ -1,6 +1,6 @@
 import React from 'react';
 import './NotFoundPage.css';
-import routes from '../../route/routes'
+// import routes from '../../route/routes'
 import { Link } from 'react-router-dom';
 
 const NotFoundPage =()=> {

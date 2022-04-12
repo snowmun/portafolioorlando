@@ -12,9 +12,9 @@ const AccountPage =()=> {
   
   const {user} = useAuth();
   
-  const [isOpenDeleteModal,openDeleteModal,closeDeleteModal] = useModal();
-  const [isOpenCambiarPwModal,openCambiarPwModal,closeCambiarPwModal] = useModal();
-  const [isOpenEditarUsuarioModal,openEditarUsuarioModal,closeEditarUsuarioModal] = useModal();
+  // const [isOpenDeleteModal,openDeleteModal,closeDeleteModal] = useModal();
+  // const [isOpenCambiarPwModal,openCambiarPwModal,closeCambiarPwModal] = useModal();
+  // const [isOpenEditarUsuarioModal,openEditarUsuarioModal,closeEditarUsuarioModal] = useModal();
   const [isOpenCambiarImageModal,openCambiarImageModal,closeCambiarImageModal] = useModal();
   return (
     <>
@@ -30,7 +30,7 @@ const AccountPage =()=> {
               <p className="text-center"><b>Nombre: </b>{user.name}</p>
               <p className="text-center"><b>Edad: </b>{user.edad}</p>
               <p className="text-center"><b>Correo: </b>{user.email}</p>
-              <p className="text-center"><b>Rol: </b>{user.role}</p>
+              <p className="text-center"><b>Lenguaje Favorito: </b>{user.lenguajeFav}</p>
               <p className="text-center"><b>Hobbie: </b>{user.hobbie}</p>
               <p className="text-center"><b>Nacionalidad: </b>{user.nacionalidad}</p>
               <p className="text-center"><b>Estado civil: </b>{user.estado}</p>
@@ -51,28 +51,28 @@ const AccountPage =()=> {
         </Row>
       </Container>
       <DeleteModal
-      isOpen={isOpenDeleteModal}
-      close={closeDeleteModal}
+      // isOpen={isOpenDeleteModal}
+      // close={closeDeleteModal}
       />
       <CambiarPw
-        isOpen={isOpenCambiarPwModal}
-        close={closeCambiarPwModal}
+        // isOpen={isOpenCambiarPwModal}
+        // close={closeCambiarPwModal}
       />    
       <EditarUsuario
-      isOpen={isOpenEditarUsuarioModal}
-      close={closeEditarUsuarioModal}
-      user={user}
+      // isOpen={isOpenEditarUsuarioModal}
+      // close={closeEditarUsuarioModal}
+      // user={user}
     />
 
     <EditarUsuario
-      isOpen={isOpenEditarUsuarioModal}
-      close={closeEditarUsuarioModal}
-      user={user}
+      // isOpen={isOpenEditarUsuarioModal}
+      // close={closeEditarUsuarioModal}
+      // user={user}
     />
        <EditarImagen
-      isOpen={isOpenCambiarImageModal}
-      close={closeCambiarImageModal}
-      user={user}
+      // isOpen={isOpenCambiarImageModal}
+      // close={closeCambiarImageModal}
+      // user={user}
     />
     </>
 

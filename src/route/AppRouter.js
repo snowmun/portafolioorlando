@@ -22,8 +22,8 @@ const AppRouter =()=> {
             <Route  index element={<HomePage/>}/>
             <Route  path={routes.login} element={<LoginPage/>}/>
             <Route  path={routes.register} element={<RegisterPage/>}/>
-            <Route  path={routes.account} element={<PrivateRoute><AccountPage/></PrivateRoute>}/>
-            <Route  path={routes.projects} element={<PrivateRoute><ProjectPage/></PrivateRoute>}/>
+            <Route  path={routes.account} element={<AccountPage/>}/>
+            <Route  path={routes.projects} element={<ProjectPage/>}/>
             <Route  path={routes.project()} element={<PrivateRoute ><ProjectsPage/></PrivateRoute>}/>
             <Route  path={routes.admin.users} element={<PrivateRoute hasRole={roles.admin}><UsersPage /></PrivateRoute>}/>
             <Route   path={routes.admin.crearuser} element={<PrivateRoute hasRole={roles.admin} ><CrearUser /></PrivateRoute>}/> 

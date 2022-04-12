@@ -10,16 +10,16 @@ const HomePage =()=> {
   return (
     <Container>
       <Row className='mt-5'>
-        <Col className='col-6'>
+        <Col className='col-xs-12 col-sm-12  col-md-6'>
           <Bienvenido/>
           <Conocimientos/>
           
         </Col>
-        <Col className='col-6'>
+        <Col className='col-xs-12 col-sm-12 col-md-6'>
           <div className='mt-5'>
             <Presentacion/>
           </div>
-          <div className='mt-5'>
+          <div className='col-xs-12 col-sm-12 mt-5'>
             <Contactame />     
           </div>
         </Col>
