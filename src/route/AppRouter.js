@@ -18,7 +18,7 @@ import routes from './routes';
 const AppRouter =()=> {
   return (
         <Routes>
-          <Route path={routes.home} element={<Layout/>}>
+          <Route path={routes.home}  element={<Layout/>}>
             <Route  index element={<HomePage/>}/>
             <Route  path={routes.login} element={<LoginPage/>}/>
             <Route  path={routes.register} element={<RegisterPage/>}/>
