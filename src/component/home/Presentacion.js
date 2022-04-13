@@ -11,7 +11,7 @@ const Presentacion = () => {
                             <div className="col-8">
                                 <div className="card-body">
                                     <p className="card-text" >
-                                    Mi nombre es Orlando Muñoz tengo 31 años, soy egresado de Analista Programador en el instituto Duoc UC,
+                                    Mi nombre es Orlando Muñoz tengo 31 años, soy egresado de Analista Programador en el instituto Duoc UC, 
                                     en mi tiempo libro juego en el computador o veo tutoriales.
                                     </p>
                                 </div>
@@ -23,8 +23,8 @@ const Presentacion = () => {
                                 <div className="card-body">
                                 
                                     <p className="card-text">
-                                    Realize esta pagina para mostrar un poco  lo aprendido en el area de React js se utilizo un poco de node js espero sea de su agrado y cualquier feedback o duda
-                                    me pueden contactar.
+                                    Realicé esta página para mostrar un poco lo aprendido tanto en FrontEnd como BackEnd, espero sea de su agrado y 
+                                    cualquier feedback o duda me pueden contactar más abajo.
                                     </p>
                                 </div>
                             </div>

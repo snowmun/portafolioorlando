@@ -23,7 +23,7 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && echo 'ormunozportafolio.xyz' > ./build/CNAME",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",

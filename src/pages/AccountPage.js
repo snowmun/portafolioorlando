@@ -6,6 +6,7 @@ import useAuth from '../component/auth/useAuth';
 import EditarUsuario from '../component/account/EditarUsuario';
 import EditarImagen from '../component/account/EditarImagen';
 import useModal from '../hooks/useModal';
+import YoAccount from  '../img/yoAccount.jpg';
 
 const AccountPage =()=> {
 
@@ -21,10 +22,12 @@ const AccountPage =()=> {
       <Container>
         <Row>
           <Col xs={12} className="text-center mt-4">
-            <div>
+            <div >
              {/* onClick={openCambiarImageModal} */}
-              <img id="YoAccount"  className="img-fluid rounded-start" alt="foto mia" src='/img/yoAccount.jpg' />                   
-            </div> 
+
+                <img id="YoAccount" className="img-fluid rounded-start"  alt="foto mia" src={YoAccount} />
+            </div>
+          
           </Col>
           <Col>
             <Card style={{ maxWidth: '360px' }} className="mx-auto p-4 mt-2">

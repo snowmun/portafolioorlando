@@ -92,7 +92,7 @@ export const GraficoFront=()=>{
            series={[
             {
                 name:'conocimientos',
-                data: [40,40,70,55,60,70,40,50]
+                data: [40,40,70,65,60,70,40,50]
               }
           ]}
           options= {{
