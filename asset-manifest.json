@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portafolioorlandoclient/static/css/main.78e09f2d.css",
-    "main.js": "/portafolioorlandoclient/static/js/main.5029fd74.js",
+    "main.js": "/portafolioorlandoclient/static/js/main.0992f01a.js",
     "static/media/yo.jpg": "/portafolioorlandoclient/static/media/yo.e917d37abffa6c6d4637.jpg",
     "static/media/logo.png": "/portafolioorlandoclient/static/media/logo.8fd784537961ba038a5d.png",
     "index.html": "/portafolioorlandoclient/index.html",
     "main.78e09f2d.css.map": "/portafolioorlandoclient/static/css/main.78e09f2d.css.map",
-    "main.5029fd74.js.map": "/portafolioorlandoclient/static/js/main.5029fd74.js.map"
+    "main.0992f01a.js.map": "/portafolioorlandoclient/static/js/main.0992f01a.js.map"
   },
   "entrypoints": [
     "static/css/main.78e09f2d.css",
-    "static/js/main.5029fd74.js"
+    "static/js/main.0992f01a.js"
   ]
 }
