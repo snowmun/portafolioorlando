@@ -15,14 +15,15 @@ const AccountPage =()=> {
   // const [isOpenDeleteModal,openDeleteModal,closeDeleteModal] = useModal();
   // const [isOpenCambiarPwModal,openCambiarPwModal,closeCambiarPwModal] = useModal();
   // const [isOpenEditarUsuarioModal,openEditarUsuarioModal,closeEditarUsuarioModal] = useModal();
-  const [isOpenCambiarImageModal,openCambiarImageModal,closeCambiarImageModal] = useModal();
+  // const [isOpenCambiarImageModal,openCambiarImageModal,closeCambiarImageModal] = useModal();
   return (
     <>
       <Container>
         <Row>
           <Col xs={12} className="text-center mt-4">
             <div>
-              <img id="YoAccount" onClick={openCambiarImageModal} className="img-fluid rounded-start" alt="foto mia" src='/img/yoAccount.jpg' />                   
+             {/* onClick={openCambiarImageModal} */}
+              <img id="YoAccount"  className="img-fluid rounded-start" alt="foto mia" src='/img/yoAccount.jpg' />                   
             </div> 
           </Col>
           <Col>
