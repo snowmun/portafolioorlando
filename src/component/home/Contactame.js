@@ -1,12 +1,12 @@
 import React,{useState}from 'react';
 import axios from 'axios'
-import { useNavigate } from 'react-router-dom'
+// import { useNavigate } from 'react-router-dom'
 import {Container,Row,Modal,Form,Button} from 'react-bootstrap'
 import{toast} from 'react-toastify';
 
-import enviarContactame from '../../validations/enviarContactame';
+// import enviarContactame from '../../validations/enviarContactame';
 
-const URI='http://localhost:8000/mail'
+const URI='https://orportafolios.herokuapp.com/mail'
 
 const Contactame = () => {
     const [correo, setCorreo] = useState('')
