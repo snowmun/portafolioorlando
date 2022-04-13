@@ -15,7 +15,7 @@ const NotFoundPage =()=> {
                   <div className="error mx-auto" data-text="404">404</div>
                   <p className="lead text-gray-800 mb-5">Page Not Found</p>
                   <p className="text-gray-500 mb-0"> Parece que encontraste un error en la matrix...</p>
-                  <Link to="/portafolioorlandoclient">&larr; Volver al Login </Link>
+                  <Link to="/">&larr; Volver al Login </Link>
               </div>
           </div>
          

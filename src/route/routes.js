@@ -1,5 +1,5 @@
 const routes = {
-    home:'/portafolioorlandoclient',
+    home:'/',
     account :'/account',
     login :'/login',
     register :'/register',
