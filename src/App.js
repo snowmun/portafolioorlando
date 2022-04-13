@@ -6,7 +6,7 @@ import {ToastContainer} from 'react-toastify';
 function App() {
   return (
     <div className="App">
-      <Router basename={process.env.PUBLIC_URL} >
+      <Router >
         <AuthProvider>
           <AppRouter/>
         </AuthProvider>
