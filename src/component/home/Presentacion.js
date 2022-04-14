@@ -12,7 +12,7 @@ const Presentacion = () => {
                                 <div className="card-body">
                                     <p className="card-text" >
                                     Mi nombre es Orlando Muñoz tengo 31 años, soy egresado de Analista Programador en el instituto Duoc UC, 
-                                    en mi tiempo libro juego en el computador o veo tutoriales.
+                                    en mi tiempo libre juego en el computador o veo tutoriales.
                                     </p>
                                 </div>
                             </div>
