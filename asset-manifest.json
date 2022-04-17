@@ -1,16 +1,19 @@
 {
   "files": {
     "main.css": "/portafolioorlandoclient/static/css/main.78e09f2d.css",
-    "main.js": "/portafolioorlandoclient/static/js/main.8814bf1e.js",
+    "main.js": "/portafolioorlandoclient/static/js/main.23543a88.js",
     "static/media/yo.jpg": "/portafolioorlandoclient/static/media/yo.e917d37abffa6c6d4637.jpg",
+    "static/media/OrlandoMuñozFlores.pdf": "/portafolioorlandoclient/static/media/OrlandoMuñozFlores.100c3117b48260d66bdf.pdf",
     "static/media/logo.png": "/portafolioorlandoclient/static/media/logo.8fd784537961ba038a5d.png",
     "static/media/yoAccount.jpg": "/portafolioorlandoclient/static/media/yoAccount.4a8ca3be34ef2167901e.jpg",
+    "static/media/crudtareas.jpg": "/portafolioorlandoclient/static/media/crudtareas.ec9d5cf11255fa4b1353.jpg",
+    "static/media/blackajck.jpg": "/portafolioorlandoclient/static/media/blackajck.5906d473496f9c2f2fcc.jpg",
     "index.html": "/portafolioorlandoclient/index.html",
     "main.78e09f2d.css.map": "/portafolioorlandoclient/static/css/main.78e09f2d.css.map",
-    "main.8814bf1e.js.map": "/portafolioorlandoclient/static/js/main.8814bf1e.js.map"
+    "main.23543a88.js.map": "/portafolioorlandoclient/static/js/main.23543a88.js.map"
   },
   "entrypoints": [
     "static/css/main.78e09f2d.css",
-    "static/js/main.8814bf1e.js"
+    "static/js/main.23543a88.js"
   ]
 }
