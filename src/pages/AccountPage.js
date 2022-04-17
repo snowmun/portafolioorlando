@@ -11,6 +11,7 @@ import useModal from '../hooks/useModal';
 import YoAccount from  '../img/yoAccount.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook,faInstagram,faLinkedin} from '@fortawesome/free-brands-svg-icons'
+import pdf from '../img/pdf/OrlandoMuñozFlores.pdf'
 const AccountPage =()=> {
 
   const {user} = useAuth();
@@ -40,6 +41,13 @@ const AccountPage =()=> {
               <p className="text-center"><b>Hobbie: </b>{user.hobbie}</p>
               <p className="text-center"><b>Nacionalidad: </b>{user.nacionalidad}</p>
               <p className="text-center"><b>Estado civil: </b>{user.estado}</p>
+              <p className="text-center" >  
+                      <button className={`btn`}>
+                        <a   href={pdf} target="_blank" rel="noopener noreferrer" download="OrlandoMF_CV.pdf"> 
+                        Descargar CV
+                        </a>
+                      </button>
+                      </p>
               <p className="text-center">
                 <a href="https://www.facebook.com/orlando.m.flores.9/" target="_blank"><FontAwesomeIcon icon={faFacebook} className="mr-2" style={{fontSize:"1.5em", color:" #3b5998"}}/>{" "}</a>
                 <a href="https://www.instagram.com/snow.mun/?hl=es" target="_blank"><FontAwesomeIcon icon={faInstagram} className="mr-2" style={{fontSize:"1.5em", color:"#517fa4"}}/>{" "}</a>
