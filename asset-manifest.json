@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolioorlandoclient/static/css/main.78e09f2d.css",
-    "main.js": "/portafolioorlandoclient/static/js/main.793e5ac5.js",
+    "main.js": "/portafolioorlandoclient/static/js/main.f003be08.js",
     "static/media/yo.jpg": "/portafolioorlandoclient/static/media/yo.e917d37abffa6c6d4637.jpg",
     "static/media/OrlandoMuñozFlores.pdf": "/portafolioorlandoclient/static/media/OrlandoMuñozFlores.100c3117b48260d66bdf.pdf",
     "static/media/logo.png": "/portafolioorlandoclient/static/media/logo.8fd784537961ba038a5d.png",
@@ -11,10 +11,10 @@
     "static/media/blackajck.jpg": "/portafolioorlandoclient/static/media/blackajck.5906d473496f9c2f2fcc.jpg",
     "index.html": "/portafolioorlandoclient/index.html",
     "main.78e09f2d.css.map": "/portafolioorlandoclient/static/css/main.78e09f2d.css.map",
-    "main.793e5ac5.js.map": "/portafolioorlandoclient/static/js/main.793e5ac5.js.map"
+    "main.f003be08.js.map": "/portafolioorlandoclient/static/js/main.f003be08.js.map"
   },
   "entrypoints": [
     "static/css/main.78e09f2d.css",
-    "static/js/main.793e5ac5.js"
+    "static/js/main.f003be08.js"
   ]
 }
