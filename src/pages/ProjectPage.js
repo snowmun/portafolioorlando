@@ -17,11 +17,12 @@ const ProjectPage =()=> {
         </Col>
         <Col className='col-xs-12 col-sm-12 col-md-4'>
           <Card  className='mt-5' style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={blackJack} />
+            <Card.Img variant="top" width="200" height="150" src={blackJack} />
             <Card.Body>
               <Card.Title>BlackJack</Card.Title>
               <Card.Text>
-              Juego del BlackJack o bien conocido como el 21,puedes jugar contra la computadora.
+              Juego del BlackJack o bien conocido como el 21,puedes jugar contra la computadora y probar
+              tu suerte.
 
               </Card.Text>
               <a href="https://snowmun.github.io/blackjackk/" target="_blank"><Button variant="primary">Ir a la Pagina</Button></a>
@@ -30,13 +31,11 @@ const ProjectPage =()=> {
         </Col>
         <Col className='col-xs-12 col-sm-12 col-md-4'>
           <Card  className='mt-5' style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={crudTareas} />
+            <Card.Img variant="top" width="200" height="150" src={crudTareas} />
             <Card.Body>
               <Card.Title>Crud Tareas</Card.Title>
               <Card.Text>
               Realice este crud con un servidor y cliente, se utiliza node js y en la DB mongoDB, se puede interactuar si gustan. 
-                <br></br>
-                Nota: Como lo monte en heroku al principio se demora un poco
               </Card.Text>
               <a href="https://tareafront.herokuapp.com/" target="_blank"><Button variant="primary">Ir a la Pagina</Button></a>
             </Card.Body>
@@ -44,7 +43,7 @@ const ProjectPage =()=> {
         </Col> 
         <Col className='col-xs-12 col-sm-12 col-md-4'>
           <Card  className='mt-5' style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={agendador} />
+            <Card.Img variant="top" width="200" height="150" src={agendador} />
             <Card.Body>
               <Card.Title>Proyecto Practica</Card.Title>
                 <Card.Text>
