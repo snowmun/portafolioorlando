@@ -6,7 +6,7 @@ import{toast} from 'react-toastify';
 
 // import enviarContactame from '../../validations/enviarContactame';
 
-const URI='https://orportafolios.herokuapp.com/api/v0/notifications'
+const URI='https://orportafolios.herokuapp.com/mail'
 
 const Contactame = () => {
     const [correo, setCorreo] = useState('')
