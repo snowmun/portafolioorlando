@@ -1,6 +1,7 @@
 import React from 'react';
 import {Container,Row,Col,Card,Button} from 'react-bootstrap'
 import blackJack from  '../img/proyectos/blackajck.jpg';
+import agendador from  '../img/proyectos/agendador.jpg';
 import crudTareas from  '../img/proyectos/crudtareas.jpg';
 import {Link} from 'react-router-dom'
 const ProjectPage =()=> {
@@ -43,16 +44,19 @@ const ProjectPage =()=> {
         </Col> 
         <Col className='col-xs-12 col-sm-12 col-md-4'>
           <Card  className='mt-5' style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="" />
+            <Card.Img variant="top" src={agendador} />
             <Card.Body>
               <Card.Title>Proyecto Practica</Card.Title>
                 <Card.Text>
-                Este fue le proyecto que realice en mí practica estuve a cargo de todo el backend y el front
+                  Estes es un proyecto que realice en mi practica user:admin pw:admin,
+                  pueden interactuar si gustan
                 </Card.Text>
-                <Button variant="primary">Proximamente</Button>
+                <a href="https://agendadorweb.herokuapp.com/" target="_blank"><Button variant="primary">Ir a la Pagina</Button></a>
+        
             </Card.Body>
           </Card>
         </Col>
+        
       </Row>
 
   </Container>
