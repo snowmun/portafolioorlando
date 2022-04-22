@@ -17,16 +17,30 @@ const Contactame = () => {
         e.preventDefault()
   
          axios.post(URI,{correo,asunto,mensaje})
-        toast.success('Mensaje enviado con exito', {
-            position: "top-right",
-            autoClose: 2000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme:'dark',
-        });
+         .then(() => {
+        
+            toast.success('Mensaje Enviado con Exito', {
+                position: "top-right",
+                autoClose: 2000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme:'dark',
+            }); 
+          }).catch(() => {
+            toast.error('Verifica que los campos esten correctamente', {
+                position: "top-right",
+                autoClose: 2000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme:'dark',
+            });  
+          });
         e.target.reset()
 
     }
