@@ -1,0 +1,31 @@
+.regcontrainer{
+    margin-top: 5%;
+}
+
+#cardregister{
+    border-radius: 5px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    padding: 5%;
+}
+.regtitle{
+    text-align: center;
+    color: #333;
+}
+.Formregister{
+    padding: 10%;
+}
+.RegisterBoton
+{
+    width: 100%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.8rem;
+    padding: 1.5%;
+    border: none;
+    
+}
+
+
+
