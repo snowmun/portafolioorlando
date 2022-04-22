@@ -4,11 +4,7 @@ const routes = {
     login :'/login',
     register :'/register',
     projects :'/projects',
-    project :(projectId)=>projectId?`/project/:${projectId}`:'/project/:projectId',
-    admin:{
-        users:'/admin/users',
-        crearuser:'/admin/crearuser'
-    }
+    users:'/admin/users',
     
 }
 
