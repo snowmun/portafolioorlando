@@ -24,10 +24,8 @@ const AppRouter =()=> {
             <Route  path={routes.register} element={<RegisterPage/>}/>
             <Route  path={routes.account} element={<AccountPage/>}/>
             <Route  path={routes.projects} element={<ProjectPage/>}/>
-            <Route  path={routes.project()} element={<PrivateRoute ><ProjectsPage/></PrivateRoute>}/>
-            <Route  path={routes.admin.users} element={<PrivateRoute hasRole={roles.admin}><UsersPage /></PrivateRoute>}/>
-            <Route   path={routes.admin.crearuser} element={<PrivateRoute hasRole={roles.admin} ><CrearUser /></PrivateRoute>}/> 
-          </Route>
+            <Route  path={routes.users} element={<PrivateRoute hasRole={roles.regular}><UsersPage /></PrivateRoute>}/>
+         </Route>
           {/* Ventana de errores  */}
           <Route exact path="*" element={<NotFoundPage/>}/>
         </Routes>
