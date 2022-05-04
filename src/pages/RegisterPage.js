@@ -12,12 +12,11 @@ const RegisterPage =()=> {
     const [correo, setCorreo] = useState('')
     const [contrasena, setContrasena] = useState('')   
     const [repcontrasena, setRepcontrasena] = useState('')
+    const navigate = useNavigate();
 
     const handleSubmit = async (e) =>{
         e.preventDefault()
         if(nombre !== '' && correo !== '' && contrasena !== '' && repcontrasena !== ''  ){
-        
-            
             if( contrasena === repcontrasena){
                     const rol =2;
                     await  axios.post(URI,{nombre,correo,contrasena,rol})
@@ -46,11 +45,7 @@ const RegisterPage =()=> {
                             progress: undefined,
                             theme:'dark',
                         });  
-                      });
-             
-               
-                  
-                       
+                      });        
             }else{
                 toast.error('Las contraseñas no coinciden', {
                     position: "top-right",
@@ -76,7 +71,6 @@ const RegisterPage =()=> {
             });           
         }
     }
-    const navigate = useNavigate();
   return (
     <Container className='regcontrainer'>
         <Row>
@@ -96,7 +90,7 @@ const RegisterPage =()=> {
                         </Form.Group>
                         <Form.Group as={Row} className="mb-3" >
                             <Col sm="12">
-                            <Form.Control  autoComplete="true" onChange={(e)=>setContrasena(e.target.value)}  type="password" placeholder="Ingrese un Password" />
+                            <Form.Control  autoComplete="true" smashd onChange={(e)=>setContrasena(e.target.value)}   type="password" placeholder="Ingrese un Password" />
                             </Col>
                         </Form.Group>
                         <Form.Group as={Row} className="mb-3" >
