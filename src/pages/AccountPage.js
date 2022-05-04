@@ -34,13 +34,13 @@ const AccountPage =()=> {
           </Col>
           <Col>
             <Card style={{ maxWidth: '360px' }} className="mx-auto p-4 mt-2">
-              <p className="text-center"><b>Nombre: </b>{user.name}</p>
-              <p className="text-center"><b>Edad: </b>{user.edad}</p>
-              <p className="text-center"><b>Correo: </b>{user.email}</p>
-              <p className="text-center"><b>Lenguaje Favorito: </b>{user.lenguajeFav}</p>
-              <p className="text-center"><b>Hobbie: </b>{user.hobbie}</p>
-              <p className="text-center"><b>Nacionalidad: </b>{user.nacionalidad}</p>
-              <p className="text-center"><b>Estado civil: </b>{user.estado}</p>
+              <p className="text-center"><b>Nombre: </b>Orlando Muñoz</p>
+              <p className="text-center"><b>Edad: </b>31</p>
+              <p className="text-center"><b>Correo: </b>Or.munozf@gmail.com</p>
+              <p className="text-center"><b>Lenguaje Favorito: </b>node js </p>
+              <p className="text-center"><b>Hobbie: </b>Jugar VideoJuegos y Ver anime</p>
+              <p className="text-center"><b>Nacionalidad: </b>Chileno</p>
+              <p className="text-center"><b>Estado civil: </b>Soltero</p>
               <p className="text-center" >  
                       <button className={`btn`}>
                         <a   href={pdf} target="_blank" rel="noopener noreferrer" download="OrlandoMF_CV.pdf"> 
