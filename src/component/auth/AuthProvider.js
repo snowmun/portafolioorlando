@@ -4,38 +4,28 @@ import { useNavigate } from 'react-router-dom'
 export const authContext = createContext();
 
 const AuthProvider=({children})=> {
-    // const [user,setUser]=useState(null);
-    // const [user]=useState({id:1,role:roles.regular});
-    const [user]=useState({id:2,name:'Orlando Muñoz',lenguajeFav:'JavaScript',email:'or.munozf@gmail.com',edad:31,
-    hobbie:'Jugar VideoJuegos y Ver anime',nacionalidad:'Chileno',estado:'Soltero'});
     const history = useNavigate();
-    const login = (userCredentials)=>{
-      const lastPath = localStorage.getItem('lastPath') || '/';
+    const token = localStorage.getItem("token");
 
-      // setUser({id:2,name:'Orlando Muñoz',email:'or.munozf@gmail.com',edad:31,role:roles.admin,
-      // hobbie:'Jugar VideoJuegos y Ver cursos',nacionalidad:'Chileno',estado:'Soltero'}); 
-      
-      if(lastPath){
-        history(lastPath)
-      }
-    }
-
-    // const logout = ()=>{
-      
-    //   return setUser(null)
+    // const login = (userCredentials)=>{
+    //   const lastPath = localStorage.getItem('lastPath') || '/';      
+    //   if(lastPath){
+    //     history(lastPath)
+    //   }
     // }
 
+    const logout = ()=>{
+          localStorage.clear();
+    }
+
     // comprobaremos si esta autenticado true o false
-    const isLogged = ()=> !!user;
-    // comprobar que si tiene un rol o tiene un valor 
-    const hasRole = (role) => user?.role===role;
+    const isLogged = ()=> !!token;
 
     const contextValue={
-      user,
+      token,
       isLogged,
-      hasRole,
-      login,
-      // logout
+      // login,
+      logout
     };
   return (
     <authContext.Provider value={contextValue}>
